@@ -35,6 +35,9 @@ photo, keeping the same file name**.
 | `ross-on-wye.png` | The Area | Ross-on-Wye town/river | 1200 × 800 |
 | `walking.png` | (spare) walking shot | Footpath / countryside | 1200 × 800 |
 | `dog-friendly.png` | (spare) | A dog enjoying the garden | 1200 × 800 |
+| `meetings.png` | Meetings page banner | Wide shot of a meeting/dining setup or the house | 1600 × 900 |
+| `meeting-room.png` | Meetings + home teaser | Dining room set up as a meeting table | 1200 × 800 |
+| `meeting-garden.png` | Meetings page | Garden / breakout space | 1200 × 800 |
 | `map.png` | Contact page | Screenshot of map / leave as is | 1200 × 600 |
 | `blog-wye-valley.png` | Blog post | Wye Valley scenery | 1200 × 800 |
 | `blog-walks.png` | Blog post | Walking path | 1200 × 800 |

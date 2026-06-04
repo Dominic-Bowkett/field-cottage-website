@@ -16,6 +16,7 @@ dependencies** — ideal for **GitHub Pages** and **Cloudflare Pages**.
 | Home | `index.html` |
 | About & Rooms | `about.html` |
 | The Area | `area.html` |
+| Meetings & Retreats | `meetings.html` |
 | Gallery (with lightbox) | `gallery.html` |
 | Blog index | `blog.html` |
 | Blog posts | `blog/*.html` (6 articles) |

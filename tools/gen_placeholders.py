@@ -56,14 +56,14 @@ def write_png(path, width, height, top, bottom, accent=None):
     print("wrote", path, f"{width}x{height}")
 
 
-# palette (muted, desaturated, luxe)
-SAGE_T, SAGE_B = (132, 142, 122), (92, 104, 88)
-CREAM_T, CREAM_B = (238, 231, 217), (210, 199, 178)
-TERRA_T, TERRA_B = (170, 134, 98), (120, 92, 64)
-SKY_T, SKY_B = (170, 182, 184), (118, 134, 138)
-FOREST_T, FOREST_B = (60, 76, 66), (27, 36, 31)
-STONE_T, STONE_B = (208, 198, 182), (164, 152, 134)
-GOLD = (198, 170, 120)
+# palette (warm, natural, elegant — family luxury)
+SAGE_T, SAGE_B = (139, 151, 117), (104, 116, 86)
+CREAM_T, CREAM_B = (247, 242, 232), (223, 211, 188)
+TERRA_T, TERRA_B = (181, 138, 99), (138, 100, 68)
+SKY_T, SKY_B = (168, 178, 168), (120, 134, 122)
+FOREST_T, FOREST_B = (70, 80, 58), (45, 52, 36)
+STONE_T, STONE_B = (231, 219, 197), (190, 174, 146)
+GOLD = (205, 178, 122)
 
 # name, w, h, top, bottom, accent
 JOBS = [
@@ -81,6 +81,9 @@ JOBS = [
     ("bedroom-3.png", 1200, 800, SKY_T, SKY_B, None),
     ("bedroom-4.png", 1200, 800, SAGE_T, SAGE_B, None),
     ("annexe.png", 1200, 800, STONE_T, STONE_B, GOLD),
+    ("meetings.png", 1600, 900, FOREST_T, FOREST_B, GOLD),
+    ("meeting-room.png", 1200, 800, STONE_T, STONE_B, GOLD),
+    ("meeting-garden.png", 1200, 800, SAGE_T, SAGE_B, GOLD),
     ("bathroom.png", 1200, 800, SKY_T, SKY_B, None),
     ("wye-valley.png", 1200, 800, FOREST_T, FOREST_B, GOLD),
     ("ross-on-wye.png", 1200, 800, TERRA_T, TERRA_B, GOLD),
