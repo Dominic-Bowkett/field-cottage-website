@@ -2,12 +2,12 @@
   "name": "Field Cottage Peterstow",
   "short_name": "Field Cottage",
   "description": "A refurbished 4-bedroom self-catering holiday cottage in the Wye Valley, near Ross-on-Wye. Sleeps 8, dog friendly.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#f7f4ec",
   "theme_color": "#34503a",
   "icons": [
-    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
-    { "src": "/assets/images/og-image.png", "sizes": "1200x630", "type": "image/png" }
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "./assets/images/og-image.png", "sizes": "1200x630", "type": "image/png" }
   ]
 }
