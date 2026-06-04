@@ -1,7 +1,7 @@
 # Field Cottage Peterstow — Website
 
 A fast, modern, SEO-optimised **static website** for Field Cottage, a
-4-bedroom self-catering holiday cottage in Peterstow, near Ross-on-Wye in the
+5-bedroom self-catering holiday cottage in Peterstow, near Ross-on-Wye in the
 Wye Valley, Herefordshire. **Sleeps 8 · Dog friendly.**
 
 Built as plain HTML / CSS / JavaScript with **no build step and no
@@ -56,8 +56,8 @@ mapping. All photography is © the owner.
    (it's used in the footer, contact form and structured data).
 3. **Add a phone number** (optional) — fill in the empty `"telephone"` field
    in the JSON-LD in `index.html` and add it to the contact page.
-4. **Check the booking links** — Airbnb / Booking.com URLs are in the footer
-   and contact page; confirm they point to your listings.
+4. **Check the booking link** — the Airbnb URL is in the footer and contact
+   page; confirm it points to your listing.
 5. **Confirm the domain** in `CNAME` (currently `www.fieldcottagepeterstow.com`).
 
 ---
