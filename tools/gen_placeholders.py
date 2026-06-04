@@ -80,6 +80,7 @@ JOBS = [
     ("bedroom-2.png", 1200, 800, STONE_T, STONE_B, None),
     ("bedroom-3.png", 1200, 800, SKY_T, SKY_B, None),
     ("bedroom-4.png", 1200, 800, SAGE_T, SAGE_B, None),
+    ("annexe.png", 1200, 800, STONE_T, STONE_B, GOLD),
     ("bathroom.png", 1200, 800, SKY_T, SKY_B, None),
     ("wye-valley.png", 1200, 800, FOREST_T, FOREST_B, GOLD),
     ("ross-on-wye.png", 1200, 800, TERRA_T, TERRA_B, GOLD),

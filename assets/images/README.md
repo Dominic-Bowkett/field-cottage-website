@@ -27,8 +27,9 @@ photo, keeping the same file name**.
 | `dining.png` | Gallery | Dining room | 1200 × 800 |
 | `bedroom-1.png` | About + gallery | Master king bedroom | 1200 × 800 |
 | `bedroom-2.png` | About + gallery | Second king bedroom | 1200 × 800 |
-| `bedroom-3.png` | About + gallery | Twin bedroom | 1200 × 800 |
-| `bedroom-4.png` | About + gallery | Bunk room | 1200 × 800 |
+| `bedroom-3.png` | About + gallery | Twin bedroom (main house) | 1200 × 800 |
+| `annexe.png` | About + gallery | The self-contained annexe (double + en-suite) | 1200 × 800 |
+| `bedroom-4.png` | (spare) | Unused now — keep for an extra room photo | 1200 × 800 |
 | `bathroom.png` | Gallery | Bathroom | 1200 × 800 |
 | `wye-valley.png` | The Area + blog | Wye Valley landscape | 1200 × 800 |
 | `ross-on-wye.png` | The Area | Ross-on-Wye town/river | 1200 × 800 |
