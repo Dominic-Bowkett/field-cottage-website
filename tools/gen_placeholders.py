@@ -56,14 +56,14 @@ def write_png(path, width, height, top, bottom, accent=None):
     print("wrote", path, f"{width}x{height}")
 
 
-# palette (earthy / countryside)
-SAGE_T, SAGE_B = (124, 142, 110), (74, 92, 66)
-CREAM_T, CREAM_B = (242, 235, 220), (214, 200, 174)
-TERRA_T, TERRA_B = (196, 124, 92), (150, 86, 60)
-SKY_T, SKY_B = (168, 196, 206), (108, 144, 162)
-FOREST_T, FOREST_B = (96, 120, 92), (52, 74, 56)
-STONE_T, STONE_B = (208, 200, 188), (150, 140, 126)
-GOLD = (224, 198, 150)
+# palette (muted, desaturated, luxe)
+SAGE_T, SAGE_B = (132, 142, 122), (92, 104, 88)
+CREAM_T, CREAM_B = (238, 231, 217), (210, 199, 178)
+TERRA_T, TERRA_B = (170, 134, 98), (120, 92, 64)
+SKY_T, SKY_B = (170, 182, 184), (118, 134, 138)
+FOREST_T, FOREST_B = (60, 76, 66), (27, 36, 31)
+STONE_T, STONE_B = (208, 198, 182), (164, 152, 134)
+GOLD = (198, 170, 120)
 
 # name, w, h, top, bottom, accent
 JOBS = [
