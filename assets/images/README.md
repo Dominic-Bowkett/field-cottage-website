@@ -4,8 +4,9 @@
 > contain your real photos (`hero`, `og-image`, `cottage-exterior`,
 > `garden`, `countryside-view`, `wye-valley`, `meetings`, `blog-wye-valley`,
 > `meeting-garden`, `annexe`, `lounge`, `second-lounge`, plus gallery extras
-> `lounge-cosy`, `lounge-detail`). Still placeholders awaiting photos:
-> **kitchen, dining, the bedrooms (1–4) and bathroom**.
+> `lounge-cosy`, `lounge-detail`, plus the **dining room** `dining`,
+> `dining-2`, `dining-detail`). Still placeholders awaiting photos:
+> **kitchen, the bedrooms (1–4) and bathroom**.
 >
 > Note: `annexe.png` / `meeting-garden.png` use a small (300×200) source
 > image, so they'll look a little soft when shown large — a higher-resolution
