@@ -1,16 +1,14 @@
 # Photos — how to add your own
 
-> **Status:** the exterior/landscape, annexe and **living‑room** slots now
-> contain your real photos (`hero`, `og-image`, `cottage-exterior`,
-> `garden`, `countryside-view`, `wye-valley`, `meetings`, `blog-wye-valley`,
-> `meeting-garden`, `annexe`, `lounge`, `second-lounge`, plus gallery extras
-> `lounge-cosy`, `lounge-detail`, plus the **dining room** `dining`,
-> `dining-2`, `dining-detail`). Still placeholders awaiting photos:
-> **kitchen, bedrooms 2–4 and the bathroom**.
+> **Status:** all the main spaces now use real photography — exterior,
+> garden, landscape, the living room, dining room, all five bedrooms
+> (master, second king, twin, bunk and the annexe, incl. the annexe's
+> vaulted living room) and the meetings imagery. Still placeholders:
+> **kitchen and bathroom**.
 >
-> Note: `annexe.png` / `meeting-garden.png` use a small (300×200) source
-> image, so they'll look a little soft when shown large — a higher-resolution
-> annexe photo would be worth swapping in.
+> Note: `meeting-garden.png` still uses a small (300×200) source image, so it
+> looks a little soft when shown large — a higher-resolution garden/annexe
+> exterior photo would be worth swapping in.
 
 
 The site currently uses **placeholder images** (soft gradients) so it looks
