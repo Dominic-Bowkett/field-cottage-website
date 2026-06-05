@@ -1,5 +1,16 @@
 # Photos — how to add your own
 
+> **Status:** the exterior/landscape and annexe slots now contain your real
+> photos (`hero`, `og-image`, `cottage-exterior`, `garden`,
+> `countryside-view`, `wye-valley`, `meetings`, `blog-wye-valley`,
+> `meeting-garden`, `annexe`). The interior shots (lounges, kitchen, dining,
+> bedrooms, bathroom) are still placeholders awaiting your photos.
+>
+> Note: `annexe.png` / `meeting-garden.png` use a small (300×200) source
+> image, so they'll look a little soft when shown large — a higher-resolution
+> annexe photo would be worth swapping in.
+
+
 The site currently uses **placeholder images** (soft gradients) so it looks
 polished before your real photographs are added. Every placeholder lives in
 this folder. To use your own photos, simply **overwrite each file with your
