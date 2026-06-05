@@ -62,33 +62,46 @@ mapping. All photography is © the owner.
 
 ---
 
-## 🚀 Deploying
+## 🚀 Deploying — Cloudflare Pages
 
-### Option A — Cloudflare Pages (recommended for this domain)
+This site is deployed with **Cloudflare Pages**, connected to this GitHub
+repo. The **production branch is `main`** — every push/merge to `main`
+publishes automatically, and any other branch gets its own preview URL.
 
-1. Push this repo to GitHub.
-2. In the Cloudflare dashboard → **Workers & Pages → Create → Pages →
-   Connect to Git**, choose this repo.
-3. Build settings:
+### One-time setup (Cloudflare dashboard)
+
+1. **Workers & Pages → Create → Pages → Connect to Git**, and choose this
+   repository.
+2. Build settings:
+   - **Production branch:** `main`
    - **Framework preset:** None
    - **Build command:** *(leave blank)*
    - **Build output directory:** `/`
-4. Deploy, then add your **custom domain** `www.fieldcottagepeterstow.com`
-   under the project's **Custom domains** tab (Cloudflare handles DNS + SSL).
+3. **Save and Deploy.** You'll get a live URL like
+   `https://field-cottage-website.pages.dev` within ~1 minute.
 
-The `_headers` file adds sensible security headers and long-lived caching for
-assets automatically on Cloudflare Pages.
+The `_headers` file applies security headers + long-lived asset caching, and
+`404.html` is served automatically as the not-found page.
 
-### Option B — GitHub Pages
+### Custom domain (DNS managed outside Cloudflare)
 
-1. Push to the `main` branch.
-2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
-   The included workflow (`.github/workflows/deploy-pages.yml`) publishes the
-   site automatically on every push to `main`.
-3. The `CNAME` file wires up the custom domain; set the matching DNS records
-   at your registrar (a `CNAME` for `www` → `<user>.github.io`).
+The domain's DNS currently lives at the registrar (not Cloudflare), so:
 
-> `.nojekyll` is included so GitHub Pages serves the files as-is.
+1. In the Pages project → **Custom domains → Set up a domain**, add
+   `www.fieldcottagepeterstow.com`.
+2. Cloudflare shows a target like `field-cottage-website.pages.dev`. At your
+   registrar's DNS, add a **CNAME** record:
+   `www` → `field-cottage-website.pages.dev` (proxy/redirect as instructed).
+3. For the apex/root `fieldcottagepeterstow.com`, add it too and either use a
+   CNAME-flattening/ALIAS record to the same target, or a redirect to `www`.
+4. SSL is issued automatically once DNS resolves.
+
+> Alternatively, move the domain's **nameservers** to Cloudflare (add the
+> site in the Cloudflare dashboard first) for one-click custom domains and
+> full CDN — but the CNAME route above works without changing nameservers.
+
+> Note: no `CNAME` file is needed in the repo for Cloudflare Pages — that's a
+> GitHub Pages convention. Custom domains are configured in the dashboard.
 
 ### Local preview
 
